@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article{
+    height: 20em;
+    width:90%;
+    background:yellowgreen;
+    margin: 0 auto;
+}
+.article .addbtn{
+    display: block;
+    border: .3em solid #333;
+    padding: 1.5em;
+    margin:0 auto;
+    background: yellowgreen;
+    color:azure;
+}
+.article legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color:chocolate;
+    letter-spacing: .2em;
+}
+.article input,textarea{
+    display: block;
+    padding: 1em;
+   margin:2em auto;
+  }
+.article-output{
+    width:90%;
+    background: #333;
+    color:#fff;
+    margin: 2em auto;
+}
+.article-output table{
+    table-layout: fixed;
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: capitalize;
+    }
+.article-output table td{
+    padding: 1em;
+    background: #0477bf;
+    border-bottom:.1em solid #333;
+    
+    
+    
+   }
